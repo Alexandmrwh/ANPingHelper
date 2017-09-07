@@ -17,7 +17,7 @@
     self.host = [[NSString alloc] init];
     return self;
 }
-- (void)PingOneIP: (NSString *) address {
+- (void)pingOneIP: (NSString *) address {
     NSLog(@"**************thread: %@*************", [NSThread currentThread]);
 
     self.pinger = [[SimplePing alloc] initWithHostName: address];
@@ -29,7 +29,7 @@
     } while (self.pinger != nil);
     NSLog(@"ANPingOneIP Finished");
 }
-- (void)PingGroupIP: (NSString *) localip with: (NSString *)netmask {
+- (void)pingGroupIP: (NSString *) localip with: (NSString *)netmask {
     
     NSLog(@"**************thread: %@*************", [NSThread currentThread]);
     char ipchar[ipLength], maskchar[ipLength];

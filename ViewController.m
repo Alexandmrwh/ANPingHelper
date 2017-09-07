@@ -31,7 +31,7 @@
     NSDictionary * res = getNetInfo();
     NSString * ip = [res objectForKey: @"addr"];
     NSString * mask = [res objectForKey: @"mask"];
-    [handler PingGroupIP: ip with: mask];
+    [handler pingGroupIP: ip with: mask];
 
 }
 - (IBAction)startscan:(id)sender {

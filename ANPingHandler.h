@@ -20,6 +20,6 @@
 @property(nonatomic, strong) SimplePing * pinger;
 @property(nonatomic, strong) NSTimer * sendTimer;
 -(id)initPingHandler;
--(void)PingOneIP: (NSString *) address;
--(void)PingGroupIP: (NSString *) localip with: (NSString *)netmask;
+-(void)pingOneIP: (NSString *) address;
+-(void)pingGroupIP: (NSString *) localip with: (NSString *)netmask;
 @end
