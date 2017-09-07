@@ -1,6 +1,6 @@
 # ANPingHelper
 
-The coarse example in ViewController.m which shows how to ping each ip in one network segment.
+The coarse example in ViewController.m shows how to ping each ip in one network segment.
 
 If you want to use ANPingHelper, you only need to import ANPingHelperMarco.h, CommonUtils.h/.m and ANPingHeler.h/.m in your project.
 
